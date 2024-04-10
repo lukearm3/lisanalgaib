@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine;
+    color: rgb(137, 78, 7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+    
+}
+a{
+    color: black;
+}
+a:visited{
+    color: red;
+}
+img{
+    border: 15px solid palevioletred;
+    padding: 3px;
+    margin: 5px;
+    display: block;
+    margin: auto;
+}
+.rizz{
+    border: 33px dotted red;
+    padding: 10px;
+    margin: 33px;
+    display: block;
+    margin: auto;
+}
+.rizz:hover{
+    border: 33px dotted red;
+padding: 10px;
+margin: 33px;
+display: block;
+margin: auto;
+animation: border-flash 1s infinite;
+}
+@keyframes border-flash {
+0% {
+border-color: red;
+}
+50% {
+border-color: transparent;
+}
+100% {
+border-color: red;
+}
+}
+}
